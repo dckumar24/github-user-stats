@@ -1,0 +1,23 @@
+.lang-container{
+    margin:2% 2%;
+    padding:10px;
+    width:450px;
+    height: 100%;
+    box-shadow: 5px 5px 5px black;
+    background-color:snow;
+    border-radius: 10px;
+    
+
+}
+@media only screen and (max-width: 600px) {
+    .lang-container{
+        margin:5% 5%;
+        padding:5px;
+        width:250px;
+        height: 100%;
+        box-shadow: 2px 2px 5px black;
+        background-color:snow;
+        border-radius: 10px;
+    
+    }   
+}

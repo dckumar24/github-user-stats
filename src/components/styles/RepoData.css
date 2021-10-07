@@ -1,0 +1,201 @@
+.user-repo{
+    font-weight: bold;
+    width:100%;
+    background-color: black;
+    color:orange;
+    
+}
+.repo-title{
+    color:orange;
+    width:80%;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    margin:auto;
+    padding:auto;
+    text-align: center;
+    
+}
+.repo-data{
+    width:30%;
+}
+.repo-list{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.list-item{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    color:black;
+    box-shadow: 5px 5px 5px black;
+}
+.list-header{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;
+
+    width:80%;
+    padding-left:10px;
+    border-bottom: 2px solid lightgreen;
+}
+.repo-name{
+    font-size: 25px;
+    font-weight: bolder;
+    color:black;    
+    text-align: left;
+    width:100%;
+    text-align: center;
+}
+.repo-desc{
+    font-size:20px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(26, 166, 122, 126);
+}
+.list-body{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+}
+.repo-lang{
+margin-left:15px;
+font-size:18px;
+padding:10px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(26, 166, 122, 126);
+
+}
+.repo-updated-date{
+    margin-right: 15px;
+    font-size:18px;
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(26, 166, 122, 126);
+}
+.list-foot{
+    width:100%;
+    background-color: green;
+    text-decoration: none;
+    color:white;
+    border-radius: 0 0 10px 10px;
+}
+.list-foot a{
+    border-radius: 10px;
+    color:white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .user-repo{
+        font-weight: bold;
+        width:100%;
+        background-color: black;
+        color:orange;
+        
+    }
+    .repo-title{
+        color:orange;
+        width:80%;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: black;
+        margin:auto;
+        padding:auto;
+        text-align: center;
+        
+    }
+    .repo-data{
+        width:85%;
+        
+    }
+    .repo-list{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .list-item{
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin: 10px;
+        color:black;
+        box-shadow: 2px 2px 5px black;
+    }
+    .list-header{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items:flex-start;
+    
+        width:85%;
+        padding-left:5px;
+        border-bottom: 2px solid lightgreen;
+    }
+    .repo-name{
+        font-size: 15px;
+        font-weight: bolder;
+        color:black;    
+        text-align: left;
+        width:100%;
+        text-align: center;
+    }
+    .repo-desc{
+        font-size:10px;
+        font-weight: bold;
+        font-style: italic;
+        color:rgb(26, 166, 122, 126);
+    }
+    .list-body{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        align-items: center;
+    }
+    .repo-lang{
+    margin-left:10px;
+    font-size:10px;
+    padding:2px;
+        font-weight: bold;
+        font-style: italic;
+        color:rgb(26, 166, 122, 126);
+    
+    }
+    .repo-updated-date{
+        margin-right: 15px;
+        font-size:10px;
+        font-weight: bold;
+        font-style: italic;
+        color:rgb(26, 166, 122, 126);
+    }
+    .list-foot{
+        width:100%;
+        background-color: green;
+        text-decoration: none;
+        color:white;
+        border-radius: 0 0 10px 10px;
+    }
+    .list-foot a{
+        border-radius: 10px;
+        color:white;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: bold;
+    }
+          
+}

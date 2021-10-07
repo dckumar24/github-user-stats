@@ -1,0 +1,199 @@
+.user-data{
+    width:27%;
+    height: 100%;
+    background-color: snow;
+    padding:2%;
+    margin:2%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+p{width:100%;}
+.user-img img{
+    border-radius: 50%;
+    width:200px;
+    box-shadow: 5px 5px 5px black;
+}
+.user-header{
+    display: flex;
+    justify-content: left;
+    align-items:flex-end;
+    padding-bottom:10px;
+    border-bottom: 2px solid rgba(117, 113, 113, 0.781);
+
+}
+.user-name{
+    margin-left: 10px;
+}
+.user-name h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.user-create-date{
+    font-size: 25px;
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+}
+.user-body{
+    display:flex;
+    border-bottom: 2px dashed rgba(99, 94, 94, 0.705);
+    justify-content: right;
+    align-items: center;
+    width:90%;
+    padding:10px;
+}
+.followers, .following{
+    margin-left:20%;
+    padding :auto;
+    width:80%;
+    
+}
+.followers-title{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.followers-count{
+    color:grey;
+    font-size: 25px;
+    font-weight: bold;
+}
+.following-title{
+    margin:auto;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.following-count{
+    color:grey;
+    font-size: 25px;
+    font-weight: bold;
+}
+.user-foot{
+    margin-top: 15px;
+}
+.user-foot>div{
+    margin-top:10px;
+}
+.user-url{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color:black;
+}
+.user-url a{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;  
+}
+.user-update-date{
+    font-size: 25px;
+    color:grey;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .user-data{
+        width:70%;
+        height: 80%;
+        background-color: snow;
+        /* padding:2%; */
+        /* margin:2%; */
+        box-shadow: 2px 2px 5px black;
+        border-radius: 10px;
+    }
+    p{width:100%;}
+    .user-img img{
+        border-radius: 50%;
+        width:90px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .user-header{
+        display: flex;
+        justify-content: left;
+        align-items:flex-end;
+        padding-bottom:2px;
+        border-bottom: 2px solid rgba(117, 113, 113, 0.781);
+    
+    }
+    .user-name{
+        margin-left: 5px;
+    }
+    .user-name h1{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 5px;
+        text-decoration: none;
+        
+    }
+    .user-create-date{
+        font-size: 14px;
+        color:grey;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .user-body{
+        display:flex;
+        border-bottom: 2px dashed rgba(99, 94, 94, 0.705);
+        justify-content: right;
+        align-items: center;
+        width:100%;
+        padding:5px;
+    }
+    .followers, .following{
+        margin-left:20%;
+        padding :auto;
+        width:100%;
+        
+    }
+    .followers-title{
+        color:black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .followers-count{
+        color:grey;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .following-title{
+        margin:auto;
+        color:black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .following-count{
+        color:grey;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .user-foot{
+        margin-top: 3px;
+    }
+    .user-foot>div{
+        margin-top:3px;
+    }
+    .user-url{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 15px;
+        color:black;
+    }
+    .user-url a{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 5px;  
+    }
+    .user-update-date{
+        font-size: 15px;
+        color:grey;
+        font-weight: bold;
+        font-style: italic;
+    }
+     
+  }
